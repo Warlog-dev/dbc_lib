@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{88B8938C-07FF-4E94-975D-603D53D4561D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA52B0F1-AC8A-4700-BFA2-2953D2E73501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{6233C654-EC84-4192-9FB0-CD8645F943AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.Core", "libs\Wow.Core\Wow.Core.csproj", "{29883E9F-05CE-480A-A938-D8A167D3366E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.Protocol", "libs\Wow.Protocol\Wow.Protocol.csproj", "{3EBBFDB7-F010-4DFB-B788-61F160B60CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.SourceGenerators", "libs\Wow.SourceGenerators\Wow.SourceGenerators\Wow.SourceGenerators.csproj", "{AA067205-1191-4BA6-ABC9-B52508EAF5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.Tools.ProtocolBuilder", "tools\Wow.Tools.ProtocolBuilder\Wow.Tools.ProtocolBuilder.csproj", "{EB38CFE9-7E28-49C6-8591-CF91389185A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29883E9F-05CE-480A-A938-D8A167D3366E} = {88B8938C-07FF-4E94-975D-603D53D4561D}
+		{3EBBFDB7-F010-4DFB-B788-61F160B60CB2} = {88B8938C-07FF-4E94-975D-603D53D4561D}
+		{AA067205-1191-4BA6-ABC9-B52508EAF5A7} = {88B8938C-07FF-4E94-975D-603D53D4561D}
+		{EB38CFE9-7E28-49C6-8591-CF91389185A0} = {6233C654-EC84-4192-9FB0-CD8645F943AC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29883E9F-05CE-480A-A938-D8A167D3366E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29883E9F-05CE-480A-A938-D8A167D3366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29883E9F-05CE-480A-A938-D8A167D3366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29883E9F-05CE-480A-A938-D8A167D3366E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBBFDB7-F010-4DFB-B788-61F160B60CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBBFDB7-F010-4DFB-B788-61F160B60CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBBFDB7-F010-4DFB-B788-61F160B60CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBBFDB7-F010-4DFB-B788-61F160B60CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA067205-1191-4BA6-ABC9-B52508EAF5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA067205-1191-4BA6-ABC9-B52508EAF5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA067205-1191-4BA6-ABC9-B52508EAF5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA067205-1191-4BA6-ABC9-B52508EAF5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB38CFE9-7E28-49C6-8591-CF91389185A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB38CFE9-7E28-49C6-8591-CF91389185A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB38CFE9-7E28-49C6-8591-CF91389185A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB38CFE9-7E28-49C6-8591-CF91389185A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
